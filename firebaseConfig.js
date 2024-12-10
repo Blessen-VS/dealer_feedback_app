@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+const serviceAccount = require('./firebase-service-account.json'); // Ensure correct path
 
 // Initialize Firebase Admin SDK only once
 if (!admin.apps.length) {
