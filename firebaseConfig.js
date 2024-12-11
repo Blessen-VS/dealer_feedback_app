@@ -5,7 +5,7 @@ const path = require('path');
 
 let serviceAccount;
 
-  serviceAccount = require('/etc/secrets/FIREBASE_SERVICE_ACCOUNT');
+  serviceAccount = JSON.parse('/etc/secrets/FIREBASE_SERVICE_ACCOUNT');
 
 // Initialize the Firebase Admin SDK
 admin.initializeApp({
