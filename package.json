@@ -8,9 +8,9 @@
     "test": "echo 'No tests yet'"
   },
   "engines": {
-  "node": "20.13.1", 
-  "npm": ">=6.0.0"
-},
+    "node": "20.13.1",
+    "npm": ">=6.0.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
