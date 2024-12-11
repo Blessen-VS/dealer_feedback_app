@@ -6,7 +6,7 @@ const serviceAccount = JSON.parse(process.env.FIREBASE_ACCOUNT.replace(/\\n/g, '
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
-}
+
 
 module.exports = {
   admin, // Export admin for further usage if needed
